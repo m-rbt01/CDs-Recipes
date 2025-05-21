@@ -9,14 +9,41 @@ body{
     max-width: 750px;
     background-color: black;
     border: 5px solid darkgray;
+    margin: 0px auto 8px; 
 }
 
 .title{
-    margin: 0px auto 8px; 
+    text-align: center;
     padding: 0px 16px;
 }
 
+.title .food{
+    display: inline-block;
+    max-width: 350px;
+    margin: 0px auto 20px;
+}
+
 .content{
-    margin: 0px auto;
     padding: 25px 0px;
+}
+
+.return-home{
+    box-sizing: border-box;
+    width: 105px;
+    display: block;
+    background-color: darkgray;
+    border: 2px solid black;
+    padding: 2px 4px;
+    margin: 4px auto;
+}
+
+.sub.title{
+    text-align: left;
+    /*bring up content towards the title and remove bottom border*/
+    margin-bottom: -20px; 
+    border-bottom: none;
+}
+
+.sub.content{
+    border-top: none;
 }
